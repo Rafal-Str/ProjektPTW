@@ -1,0 +1,51 @@
+.navmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+.navmenu-links-left,
+.navmenu-links-right {
+    display: flex;
+    align-items: center;
+}
+
+.navmenu-link {
+    color: #333;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 5px 10px;
+}
+
+.navmenu-link:hover {
+    background: #333;
+    color: #fff;
+}
+
+.navmenu-welcome-msg {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.navmenu-profile-pic {
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.navmenu-logout-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.navmenu-logout-btn:hover {
+    background-color: #555;
+}
