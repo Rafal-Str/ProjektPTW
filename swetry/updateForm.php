@@ -46,12 +46,12 @@
 
         <?php
     } else {
-        echo "Nie znaleziono takiego swetera";
+        echo "Nie znaleziono takiego swetra";
     }
 
     $conn->close();
     ?>
 
-    <p><a href="index.php" class="back-link">Powrót do listy sweterów</a></p>
+    <p><a href="index.php" class="back-link">Powrót do listy swetrów</a></p>
 </body>
 </html>
